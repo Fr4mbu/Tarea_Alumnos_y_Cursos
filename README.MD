@@ -8,6 +8,6 @@ Se consideran atributos el nombre, apellido, matricula, carrera y edad.
 Para el atributo del nombre, apellido, matricula y carrera serian una String, y para la edad seria int.
 El nivel de encapsulamiento que tendria cada atributo seria privado. 
 
-3.Debe considerar los constructores con y sin parametros.
+**3.Debe considerar los constructores con y sin parametros.**
 * Constructor Alumno (sin parametros): este inicializa los atributos de nombre, apellido, y demas, con valores por defecto.
 * Constructor Alumno (con parametros): este inicializa los atributos de nombre, apellido y demas, con valores proporcionados al crear el objeto.
