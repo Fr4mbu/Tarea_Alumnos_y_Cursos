@@ -54,4 +54,14 @@ public class Alumno {
         this.edad = edad;
     }
 
+    @Override
+    public String toString() {
+        return "Alumno{" +
+                "nombre='" + nombre + '\'' +
+                ", apellido='" + apellido + '\'' +
+                ", matricula='" + matricula + '\'' +
+                ", carrera='" + carrera + '\'' +
+                ", edad=" + edad +
+                '}';
+    }
 }
