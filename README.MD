@@ -19,3 +19,8 @@ No, algunos atributos, como la matricula, no tienen setter, porque normalmente n
 **¿Pudo crear la clase Alumno? Sí/No ¿Por qué?**
 Se puedo crear la clase `Alumno` porque contiene todos los atributos, constructores, getters/setters y metodo `toString`, cumpliendo con los principios de POO.
 
+
+## 2da Version: Un curso y sus alumnos 
+**Control de avance:**
+**¿Pudo crear la clase Curso? Sí/No ¿Por qué?**
+Si, se puedo crear la clase Curso, porque se implemento el manejo de alumnos mediante un ArrayList, este permite agregar y eliminar, validar si un alumno pertenece a la clase, y mostrar toda la informacion del curso.
