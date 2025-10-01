@@ -22,4 +22,36 @@ public class Alumno {
         this.carrera = carrera;
         this.edad = edad;
     }
+
+    //getters
+    public String getNombre() {
+        return nombre;
+    }
+    public String getApellido() {
+        return apellido;
+    }
+    public String getMatricula() {
+        return matricula;
+    }
+    public String getCarrera() {
+        return carrera;
+    }
+    public int getEdad() {
+        return edad;
+    }
+
+    //setters
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+    public void setApellido(String apellido) {
+        this.apellido = apellido;
+    }
+    public void setCarrera(String carrera) {
+        this.carrera = carrera;
+    }
+    public void setEdad(int edad) {
+        this.edad = edad;
+    }
+
 }
