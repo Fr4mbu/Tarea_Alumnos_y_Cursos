@@ -45,4 +45,20 @@ public class Curso {
         return false;
     }
 
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("Curso: ").append(nombreCurso)
+        .append(", codigo: ").append(codigoCurso).append("\n")
+        .append("Alumnos inscritos: ");
+
+        if (alumnos.isEmpty()) {
+            sb.append("No hat alumnos inscritos en este curso");
+        }else  {
+            for (Alumno alumno : alumnos) {
+                sb.append(alumno.toString()).append("\n");
+            }
+        }
+        return sb.toString();
+    }
 }
