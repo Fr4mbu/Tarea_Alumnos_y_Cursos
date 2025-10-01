@@ -11,3 +11,6 @@ El nivel de encapsulamiento que tendria cada atributo seria privado.
 **3.Debe considerar los constructores con y sin parametros.**
 * Constructor Alumno (sin parametros): este inicializa los atributos de nombre, apellido, y demas, con valores por defecto.
 * Constructor Alumno (con parametros): este inicializa los atributos de nombre, apellido y demas, con valores proporcionados al crear el objeto.
+
+**4.¿Todos los atributos deben tener un setter asociado?**
+No, algunos atributos, como la matricula, no tienen setter, porque normalmente no deberian cambiar una vez asignado.
