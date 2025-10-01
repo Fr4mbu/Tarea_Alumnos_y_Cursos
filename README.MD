@@ -14,3 +14,8 @@ El nivel de encapsulamiento que tendria cada atributo seria privado.
 
 **4.¿Todos los atributos deben tener un setter asociado?**
 No, algunos atributos, como la matricula, no tienen setter, porque normalmente no deberian cambiar una vez asignado.
+
+**5.Control de avance:**
+**¿Pudo crear la clase Alumno? Sí/No ¿Por qué?**
+Se puedo crear la clase `Alumno` porque contiene todos los atributos, constructores, getters/setters y metodo `toString`, cumpliendo con los principios de POO.
+
